@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ideal weight calculator</title>
+  </head>
+  <body>
+    <div id="app">
+      <form onsubmit="return false">
+          <h2>Idealgewichtrechner</h2>
+          <h4 for="bodySize">Körpergröße</h4>
+          <input type="text" id="bodySize">
+          <h4 for="age">Alter</h4>
+          <input type="number" id="age">
+          <h4 for="bodyStructure">Körperbau</h4>
+          <label>
+            <input type="radio" name="bodyStructure" class="bodyStructure" value="wide">
+            Breit
+          </label>
+          <label>
+            <input type="radio" name="bodyStructure" class="bodyStructure" value="narrow">
+            Schmal
+          </label>
+          <button type="button" id="submitBtn">Submit</button>
+          <section id="showResults"></section>
+      </form>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

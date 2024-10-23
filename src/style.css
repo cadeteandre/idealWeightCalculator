@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  background-color: #739bb5;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h4 {
+  padding: 12px 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+}
