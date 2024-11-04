@@ -2,6 +2,8 @@ import "./style.css";
 
 // Mein neuer Kommentar :D
 
+//neuer Kommentar
+
 const submitBtn = document.querySelector("#submitBtn") as HTMLButtonElement;
 
 const idealWeightCalc = (bodySize: string, age: string, bodyStructure: string) => {
